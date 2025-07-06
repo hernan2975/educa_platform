@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Educa Platform{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <script src="{% static 'js/main.js' %}" defer></script>
+</head>
+<body>
+  <header role="banner">
+    <h1 tabindex="0">Educa Platform</h1>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Cursos</a></li>
+        <li><a href="#">Acceso</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    {% block content %}
+    <!-- Contenido específico de cada página -->
+    {% endblock %}
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Educa Platform</p>
+  </footer>
+</body>
+</html>
