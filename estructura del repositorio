@@ -38,7 +38,9 @@ educa_platform/
 │       └── django.yml  ← CI/CD
 ├── .gitignore
 ├── requirements.txt
+├── LICENSE 
 └── README.md
+
 
 🔀 Ramas recomendadas en GitHub
 
