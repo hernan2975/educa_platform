@@ -1,32 +1,33 @@
 🏗️ Estructura del Proyecto (repositorio GitHub)
 
 educa_platform/
-├── backend/
-│   ├── manage.py
-│   ├── educa_backend/
-│   │   ├── __init__.py
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   └── wsgi.py
-│   ├── users/
-│   │   ├── models.py
-│   │   ├── serializers.py
-│   │   ├── views.py
-│   │   ├── urls.py
-│   │   └── permissions.py
-│   ├── contents/
-│   │   ├── models.py
-│   │   ├── serializers.py
-│   │   ├── views.py
-│   │   └── urls.py
-│   └── statistics/
-│       ├── models.py
-│       └── views.py
-├── frontend/
-│   ├── templates/
-│   ├── static/
-│   │   ├── css/
-│   │   └── js/
+
+├── manage.py
+├── educa_backend/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── users/
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   ├── urls.py
+│   └── permissions.py
+├── contents/
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   └── urls.py
+└── statistics/
+│   ├── models.py
+│   └── views.py
+├── templates/
+├── static/
+│   ├── css/
+│       └── styles.css
+│   └── js/
+│       └── main.js
 │   └── index.html
 ├── docs/
 │   ├── README.md
