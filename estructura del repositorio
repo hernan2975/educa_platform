@@ -1,7 +1,6 @@
 🏗️ Estructura del Proyecto (repositorio GitHub)
 
 educa_platform/
-
 ├── manage.py
 ├── educa_backend/
 │   ├── __init__.py
