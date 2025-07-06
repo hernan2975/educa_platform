@@ -1,4 +1,4 @@
- 🧠 Educa Platform
+no 🧠 Educa Platform
 
 Plataforma educativa accesible y escalable con Django, DRF y frontend estático. Diseñada para entornos diversos, con un enfoque inclusivo para usuarios gratuitos y premium.
 
@@ -45,7 +45,7 @@ educa_platform/ ├── backend/ ← Apps Django: users, contents, statistics 
 
 El frontend accesible está disponible en:
 
-🔗 [https://TUNOMBRE.github.io/educa_platform/](https://hll2975.github.io/educa_platform/)  
+🔗 [https://TUNOMBRE.github.io/educa_platform/](https://hernan2975.github.io/educa_platform/)  
 
 ---
 
