@@ -45,8 +45,7 @@ educa_platform/ ├── backend/ ← Apps Django: users, contents, statistics 
 
 El frontend accesible está disponible en:
 
-🔗 [https://TUNOMBRE.github.io/educa_platform/](https://TUNOMBRE.github.io/educa_platform/)  
-(Sustituí la URL si ya lo publicaste vía GitHub Pages)
+🔗 [https://TUNOMBRE.github.io/educa_platform/](https://hll2975.github.io/educa_platform/)  
 
 ---
 
