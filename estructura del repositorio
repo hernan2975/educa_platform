@@ -2,35 +2,56 @@
 
 educa_platform/
 ├── backend/
-│   ├── core/
-│   │   ├── models/
-│   │   ├── views/
-│   │   ├── serializers/
-│   │   └── urls.py
+│   ├── manage.py
+│   ├── educa_backend/
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
 │   ├── users/
 │   │   ├── models.py
-│   │   ├── views.py
 │   │   ├── serializers.py
-│   │   ├── permissions.py
-│   │   └── urls.py
+│   │   ├── views.py
+│   │   ├── urls.py
+│   │   └── permissions.py
 │   ├── contents/
 │   │   ├── models.py
-│   │   ├── views.py
 │   │   ├── serializers.py
+│   │   ├── views.py
 │   │   └── urls.py
-│   ├── statistics/
-│   ├── settings.py
-│   └── manage.py
+│   └── statistics/
+│       ├── models.py
+│       └── views.py
 ├── frontend/
 │   ├── templates/
 │   ├── static/
 │   │   ├── css/
-│   │   ├── js/
-│   │   └── icons/
+│   │   └── js/
 │   └── index.html
 ├── docs/
 │   ├── README.md
 │   ├── API_REFERENCE.md
+│   ├── DATABASE_SCHEMA.md
 │   └── ACCESSIBILITY_GUIDELINES.md
+├── .github/
+│   └── workflows/
+│       └── django.yml  ← CI/CD
+├── .gitignore
 ├── requirements.txt
 └── README.md
+
+
+🔀 Ramas recomendadas en GitHub
+
+	| Rama                    | Propósito                                                  |
+|-------------------------|------------------------------------------------------------|
+| `main`                  | Versión estable para producción                            |
+| `dev`                   | Rama de integración y pruebas continuas                    |
+| `feature/backend-init`  | Estructura inicial del backend Django                      |
+| `feature/models-users`  | Modelos de usuario, autenticación y registro               |
+| `feature/courses`       | CRUD de cursos y restricción de contenido premium          |
+| `feature/api-arasaac`   | Integración con la API de pictogramas de ARASAAC           |
+| `feature/tts`           | Generación de voz (gTTS o API externa)                     |
+| `feature/admin-panel`   | Estadísticas y visualizaciones para el panel de administración |
+| `feature/frontend-base` | Plantilla HTML/CSS accesible y responsive                  |
+| `hotfix/fix-login`      | Corrección urgente en autenticación o seguridad            |
